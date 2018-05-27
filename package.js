@@ -1,8 +1,9 @@
 Package.describe({
-  name: "abhishekbiswal:swal2",
+  name: "wirddin:swal2",
   version: "0.0.2",
   // Brief, one-line summary of the package.
-  summary: "",
+  summary: "Sweet Alert 2 for Meteor",
+  describe: "Use Sweet Alert 2 in your Meteor apps",
   // URL to the Git repository containing the source code for this package.
   git: "https://github.com/AbhishekBiswal/swal2",
   // By default, Meteor will default to using README.md for documentation.
@@ -20,6 +21,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use("tinytest");
-  api.use("abhishekbiswal:swal2");
+  api.use("wirddin:swal2");
   api.mainModule("swal2-tests.js");
 });
